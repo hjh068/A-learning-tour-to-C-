@@ -1,0 +1,24 @@
+Note that once defined, the type of each variable will not change and those mainly used are:
+
+int; regular integer number
+float; single-precision f loating-point number
+double; double-precision f loating-point number
+char；letter and very short integer number
+bool；boolean (true or false)
+short； rather short integer number
+long; long integer number
+long long; very long integer number
+unsigned; unsigned versions of all the former
+long double; long floating-point number
+
+Due to the inability to change the type of variables, there are suggestions to assign the type right before you decide to use them. 
+
+In C++11, the type can be deduced automatically, i.e. using 
+auto;
+
+For parameters in modeling, some are usually fixed as constants, to avoid fraud use, they can be assigned as constants:
+
+const int a=2; et.
+i.e. using const+type
+
+then they will be fixed throughout the programming.
