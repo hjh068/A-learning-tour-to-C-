@@ -1,0 +1,15 @@
+There are many ways to produce the desired output, while I prefer to use the function printf(), which is very similar to what learned in C.
+
+#include <iostream>
+
+
+int main(void)
+{
+  printf("a_%d\n", 2);
+  printf("Hello");
+  std::cout << "\nHello, world!"
+            << std::endl;
+  return 0;
+}
+
+
