@@ -17,8 +17,8 @@ In C++11, the type can be deduced automatically, i.e. using
 auto;
 
 For parameters in modeling, some are usually fixed as constants, to avoid fraud use, they can be assigned as constants:
-
 const int a=2; et.
-i.e. using const+type
-
+i.e. using const+type,
 then they will be fixed throughout the programming.
+
+Also, some non-decimal numbers can be used: 042 means that it's for octal numbers, which is 34. 0x or 0X means for Hexadecimal numbers.
